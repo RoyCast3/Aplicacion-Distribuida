@@ -1,2 +1,15 @@
-# Aplicacion-Distribuida
-# Aplicacion-Distribuida
+## Aplicacion-Distribuida ##
+--Descripción--
+
+
+
+---Requisitos---
+
+
+
+
+---Funcionalidad---
+
+
+
+
