@@ -39,5 +39,5 @@ app.get("/download/:filename", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Servidor web ejecutado en http://localhost:${PORT}`);
+  console.log(`Servidor web ejecutado en http://192.168.1.13:${PORT}`);
 });
