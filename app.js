@@ -9,7 +9,7 @@ const archivosRouter = require('./routes/archivosRoutes');
 
 //
 const app = express();
-const PORT = 5500;
+const PORT = 3000;
 
 app.use(express.static(path.join(__dirname, "public")));
 
