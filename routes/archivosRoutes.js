@@ -2,11 +2,12 @@
 
 //Requerimos los modulos necesarios para este documento
 const express = require('express');
-
 const archivosController = require('../controllers/archivosController');
 
+//Creamos el Router en express
 const router = express.Router();
 
+//Endpoint para subir archivos desde un 
 router.post("/upload", archivosController.uploadFile, archivosController.confirmacion);
 
 router.get("/files", archivosController.getFiles);
