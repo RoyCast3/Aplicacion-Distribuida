@@ -1,7 +1,7 @@
 {
   "scripts": {
 
-    "start": "pm2 start app.js -i 0",
+    "start": "node app.js",
 
     "stop" : "pm2 stop app.js"
   },
