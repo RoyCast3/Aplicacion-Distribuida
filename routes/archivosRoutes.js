@@ -1,4 +1,4 @@
-//En este documento se pueden encontrar todos los endpoints a los ciuales el cliente va a poder acceder.
+//En este documento se pueden encontrar todos los endpoints a los cuales el cliente va a poder acceder.
 
 //Requerimos los modulos necesarios para este documento
 const express = require('express');
