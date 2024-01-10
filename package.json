@@ -1,7 +1,11 @@
 {
   "scripts": {
+<<<<<<< HEAD
     "start": "pm2 start app.js -i 0",
     "stop" : "pm2 stop app.js"
+=======
+    "start": "pm2 start app.js -i 6"
+>>>>>>> 784828d560c832eea6a807cdb72ed6c747ff7dca
   },
   "dependencies": {
     "express": "^4.18.2",
