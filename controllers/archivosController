@@ -3,6 +3,7 @@ const multer = require('multer');
 const fs = require('fs');
 const path = require('path');
 
+//En esta función se asigna la ruta en la cual se van a almacenar nuestros documentos y el nombre que recibirá cada uno de ellos
 const multerStorage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, 'uploads')
@@ -12,23 +13,27 @@ const multerStorage = multer.diskStorage({
   },
 });
 
-
+//Declaramos la ruta definida previamente y el tamaño máximo de archivo que recibira "multer" (100MB)
 const upload = multer({
   storage: multerStorage,
   limits:{ fileSize : 100000 }
 });
 
+ //Guardamos el documento que recibimos en la solicitud POST
 exports.uploadFile = upload.single('file');
 
+//Mensaje que será enviado al cliente despues de que haya subido exitosamente un archivo
 exports.confirmacion = (req, res) => {
   res.send("Archivo recibido correctamente");
 }
 
+//Función para obtener todos archivos que tenemos guardados en la carpeta "uploads"
 exports.getFiles = (req, res) => {
     const files = fs.readdirSync("uploads");
     res.json(files);
 }
 
+//Función que permitirá al usuario descargar un archivo especifico de la página
 exports.downloadFile = (req, res) => {
     const filename = req.params.filename;
     const filePath = path.join( "uploads", filename);
