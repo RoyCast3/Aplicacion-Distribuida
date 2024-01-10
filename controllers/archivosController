@@ -12,9 +12,10 @@ const multerStorage = multer.diskStorage({
   },
 });
 
+
 const upload = multer({
   storage: multerStorage,
-  //fileFilter: multerFilter
+  limits:{ fileSize : 100000 }
 });
 
 exports.uploadFile = upload.single('file');
