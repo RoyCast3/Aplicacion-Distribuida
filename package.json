@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "pm2 app.js"
+    "start": "pm2 start app.js -i 0"
   },
   "dependencies": {
     "express": "^4.18.2",
