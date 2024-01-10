@@ -10,33 +10,46 @@
 
 <body>
   <div class="bloque-con-fondo">
-  <h1 class="texto-con-separacion"><center>TRANSFERENCIA DE ARCHIVOS WEB</center></h1>
+    <h1 class="texto-con-separacion">
+      <center>TRANSFERENCIA DE ARCHIVOS WEB</center>
+    </h1>
   </div>
   <!-- Formulario para cargar archivos -->
-  <b><p>Selecciona el archivo que desees transferir:</p></b>
+  <b>
+    <p>Selecciona el archivo que desees transferir:</p>
+  </b>
   <p>
   <form id="upload-form">
-  <center><input type="file" id="file-input" name="file" required></center>
-    
-  <b><p>Da clic en el botón para cargar el archivo que escogiste</p></b>
-    <div><center><button class="fondoboton" type="submit">Cargar Archivo</button></center></div>
+    <center><input type="file" id="file-input" name="file" required></center>
+
+    <b>
+      <p>Da clic en el botón para cargar el archivo que escogiste</p>
+    </b>
+    <div>
+      <center><button class="fondoboton" type="submit">Cargar Archivo</button></center>
+    </div>
   </form>
   </p>
 
 
   <!-- Lista de archivos disponibles -->
   <div class="bloque-con-fondo">
-  <h2 class="texto-con-separacion"><center>ARCHIVOS DISPONIBLES</center></h2>
+    <h2 class="texto-con-separacion">
+      <center>ARCHIVOS DISPONIBLES</center>
+    </h2>
   </div>
   <ul id="file-list"></ul>
-<br>
+  <br>
   <!-- Enlace para descargar archivos -->
   <div class="bloque-con-fondo">
-  <h2 class="texto-con-separacion"><center>DESCARGAR ARCHIVO</center></h2>
+    <h2 class="texto-con-separacion">
+      <center>DESCARGAR ARCHIVO</center>
+    </h2>
   </div>
   <br>
   <center><select id="download-select"></select>
-  <button class="fondoboton" onclick="downloadFile()">Descargar</button></center>
+    <button class="fondoboton" onclick="downloadFile()">Descargar</button>
+  </center>
 
   <br> ALUMNOS:
   <br>Castillo Lara Rodrigo

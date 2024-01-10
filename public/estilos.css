@@ -1,32 +1,36 @@
 body {
-    background: linear-gradient(to right, #a8a1d5, #659ccf); /* Cambia los colores según tus preferencias */
-    margin: 0; 
+    background: linear-gradient(to right, #a8a1d5, #659ccf);
+    /* Cambia los colores según tus preferencias */
+    margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-  }
-  .bloque-con-fondo {
-    background-color: #d2efce; 
-  }
-  .fondoboton {
-    background-color: #ecf0f1; 
-    color: black; 
-    padding: 10px 20px; 
+}
+
+.bloque-con-fondo {
+    background-color: #d2efce;
+}
+
+.fondoboton {
+    background-color: #ecf0f1;
+    color: black;
+    padding: 10px 20px;
     font-size: 16px;
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
-  }
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-  .fondoboton:hover {
-    background-color: #a0c7a1; 
+.fondoboton:hover {
+    background-color: #a0c7a1;
     color: white;
-  }
+}
 
-  #upload-form {
+#upload-form {
     text-align: center;
     margin-top: 20px;
-  }
-  #file-input {
+}
+
+#file-input {
     padding: 10px;
     border: 2px solid #a0c7a1;
     border-radius: 5px;
@@ -34,13 +38,14 @@ body {
     color: gray;
     font-size: 16px;
     cursor: pointer;
-  }
-  #file-input:hover {
+}
+
+#file-input:hover {
     background-color: #a0c7a1;
     color: white;
-  }
-   
-  #download-select{
+}
+
+#download-select {
     padding: 10px;
     border: 2px solid #a0c7a1;
     border-radius: 5px;
@@ -48,13 +53,13 @@ body {
     color: gray;
     font-size: 16px;
     cursor: pointer;
-  }
+}
 
-  #download-select:hover {
+#download-select:hover {
     background-color: #a0c7a1;
     color: white;
-  }
+}
 
-  .texto-con-separacion {
-    letter-spacing: 3px; 
-  }
+.texto-con-separacion {
+    letter-spacing: 3px;
+}
