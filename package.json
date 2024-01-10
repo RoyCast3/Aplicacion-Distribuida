@@ -1,6 +1,8 @@
 {
   "scripts": {
+
     "start": "pm2 start app.js -i 0",
+
     "stop" : "pm2 stop app.js"
   },
   "dependencies": {
